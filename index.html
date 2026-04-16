@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>$SEAPUNK — The SEAPUNK SEAPUNK</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- ═══ UMAMI ANALYTICS ═══ -->
+  <!-- Замени YOUR-WEBSITE-ID на свой ID из umami.is -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ef2bfda2-ab84-4cd8-a268-86ae58cb6fb4"></script>
+  <!-- ══════════════════════════ -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Baloo+2:wght@400;500;600;700;800&family=Boogaloo&display=swap" rel="stylesheet" />
   <style>
@@ -846,7 +852,7 @@
       <span class="moon-icon">🚀</span>
       <span id="moonBtnText">TO THE MOON</span>
     </button>
-    <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-primary" style="padding:13px 32px;font-size:1.05rem;color:#fff;">Buy $SEAPUNK</a>
+    <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-primary" style="padding:13px 32px;font-size:1.05rem;color:#fff;" data-umami-event="buy-nav">Buy $SEAPUNK</a>
   </div>
 </nav>
 
@@ -870,11 +876,11 @@
       </p>
 
       <div class="hero-btns">
-        <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-primary" style="padding:13px 28px;font-size:1rem;">
+        <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-primary" style="padding:13px 28px;font-size:1rem;" data-umami-event="buy-hero">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
           Buy $SEAPUNK
         </a>
-        <a href="#about" class="btn btn-outline-light" style="padding:13px 28px;font-size:1rem;">Learn More</a>
+        <a href="#about" class="btn btn-outline-light" style="padding:13px 28px;font-size:1rem;" data-umami-event="learn-more">Learn More</a>
       </div>
 
       <div class="ca-box" onclick="copyCA(this)" title="Click to copy contract address">
@@ -889,17 +895,17 @@
       <div class="hero-social">
         <span class="hero-social-label">FIND US</span>
         <!-- Telegram -->
-        <a href="https://t.me/seapunkmeme">
+        <a href="https://t.me/seapunkmeme" data-umami-event="social-telegram">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.283c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.938z"/></svg>
           Telegram
         </a>
         <!-- Twitter / X -->
-        <a href="https://x.com/seapunkmeme">
+        <a href="https://x.com/seapunkmeme" data-umami-event="social-twitter">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           Twitter
         </a>
         <!-- Dexscreener -->
-        <a href="https://dexscreener.com/solana/7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump">
+        <a href="https://dexscreener.com/solana/7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" data-umami-event="social-dexscreener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
           Dexscreener
         </a>
@@ -1013,11 +1019,11 @@
     </div>
 
     <div class="buy-cta">
-      <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-primary" style="font-size:1rem;padding:14px 32px;">
+      <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-primary" style="font-size:1rem;padding:14px 32px;" data-umami-event="buy-how-to-buy">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
         Buy $SEAPUNK Now
       </a>
-      <a href="https://dexscreener.com/solana/7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-outline-light" style="font-size:1rem;padding:14px 32px;">
+      <a href="https://dexscreener.com/solana/7zBDwnVAMd1U4tBbcmcrxkVqrLcZxST8QQtss5n3pump" class="btn btn-outline-light" style="font-size:1rem;padding:14px 32px;" data-umami-event="view-chart">
         View Chart
       </a>
     </div>
@@ -1284,6 +1290,25 @@
     });
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // ════════════════════════════════════════════════════
+  // UMAMI — трекинг кликов и времени на сайте
+  // ════════════════════════════════════════════════════
+  (function() {
+    function track(name) {
+      if (typeof umami !== 'undefined') umami.track(name);
+    }
+
+    // TO THE MOON и Copy CA — динамические, вешаем JS
+    document.getElementById('moonBtn').addEventListener('click', () => track('to-the-moon'));
+    document.querySelector('.ca-box').addEventListener('click', () => track('copy-ca'));
+
+    // Время на сайте — milestone'ы: 30с, 1м, 3м
+    [30, 60, 180].forEach(sec => {
+      setTimeout(() => track('time-' + sec + 's'), sec * 1000);
+    });
+  })();
+  // ════════════════════════════════════════════════════
 </script>
 </body>
 </html>
